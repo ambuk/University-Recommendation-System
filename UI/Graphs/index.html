@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+	<!-- <div class="pos-f-t">
+		<div class="collapse" id="navbarToggleExternalContent">
+			<div class="bg-dark p-4">
+				<h4 class="text-white">Collapsed content</h4>
+				<span class="text-muted">Toggleable via the navbar brand.</span>
+			</div>
+		</div>
+		<nav class="navbar navbar-dark bg-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</nav>
+	</div> -->
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Graphs <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../Predictions/index.html">Prediction</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="timeline-container" id="timeline-1">
+
+		<div class="timeline-header">
+			<h2 class="timeline-header__title">College Tuition Data</h2>
+
+		</div>
+		<div class="timeline">
+
+			<div class="timeline-item" data-text="Click here to add custom filters" onclick="location.href=`http://149.165.171.6:30854/app/kibana#/visualize/edit/92b01e90-869b-11ea-b424-cb54eda99cd0?embed=true&_g=(refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:''),uiState:(vis:(colors:('Max%20Percent%20of%20total%20enrollment%20that%20are%20White':%23BA43A9))),vis:(aggs:!((enabled:!t,id:'1',params:(customLabel:White,field:'Percent%20of%20total%20enrollment%20that%20are%20White'),schema:metric,type:max),(enabled:!t,id:'2',params:(customLabel:'College%20Name',field:Name,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderAgg:(enabled:!t,id:'2-orderAgg',params:(field:'Enrolled%20total'),schema:orderAgg,type:max),orderBy:custom,otherBucket:!f,otherBucketLabel:Other,size:10),schema:segment,type:terms),(enabled:!t,id:'3',params:(customLabel:'Asian%2FNative%20Hawaiian%2FPacific%20Islander',field:'Percent%20of%20total%20enrollment%20that%20are%20Asian%2FNative%20Hawaiian%2FPacific%20Islander'),schema:metric,type:max),(enabled:!t,id:'4',params:(customLabel:'American%20Indian%2FAlaska%20Native',field:'Percent%20of%20total%20enrollment%20that%20are%20American%20Indian%20or%20Alaska%20Native'),schema:metric,type:max),(enabled:!t,id:'5',params:(customLabel:Asian,field:'Percent%20of%20total%20enrollment%20that%20are%20Asian'),schema:metric,type:max),(enabled:!t,id:'6',params:(customLabel:Hispanic%2FLatino,field:'Percent%20of%20total%20enrollment%20that%20are%20Hispanic%2FLatino'),schema:metric,type:max),(enabled:!t,id:'7',params:(customLabel:'Black%2FAfrican%20American',field:'Percent%20of%20total%20enrollment%20that%20are%20Black%20or%20African%20American'),schema:metric,type:max),(enabled:!t,id:'8',params:(customLabel:'Native%20Hawaiian%2F%20Other%20Pacific%20Islander',field:'Percent%20of%20total%20enrollment%20that%20are%20Native%20Hawaiian%20or%20Other%20Pacific%20Islander'),schema:metric,type:max)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!t,show:!t,truncate:50),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),dimensions:(x:(accessor:0,aggType:terms,format:(id:terms,params:(id:string,missingBucketLabel:Missing,otherBucketLabel:Other,parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'College%20Name',params:()),y:!((accessor:1,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:White,params:()),(accessor:2,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Asian%2FNative%20Hawaiian%2FPacific%20Islander',params:()),(accessor:3,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'American%20Indian%2FAlaska%20Native',params:()),(accessor:4,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:Asian,params:()),(accessor:5,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:Hispanic%2FLatino,params:()),(accessor:6,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Black%2FAfrican%20American',params:()),(accessor:7,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Native%20Hawaiian%2F%20Other%20Pacific%20Islander',params:()))),grid:(categoryLines:!f),labels:(show:!f),legendPosition:right,seriesParams:!((data:(id:'1',label:White),drawLinesBetweenPoints:!t,lineWidth:2,mode:stacked,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1),(data:(id:'3',label:'Asian%2FNative%20Hawaiian%2FPacific%20Islander'),drawLinesBetweenPoints:!t,lineWidth:2,mode:stacked,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1),(data:(id:'4',label:'American%20Indian%2FAlaska%20Native'),drawLinesBetweenPoints:!t,lineWidth:2,mode:stacked,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1),(data:(id:'5',label:Asian),drawLinesBetweenPoints:!t,lineWidth:2,mode:stacked,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1),(data:(id:'6',label:Hispanic%2FLatino),drawLinesBetweenPoints:!t,lineWidth:2,mode:stacked,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1),(data:(id:'7',label:'Black%2FAfrican%20American'),drawLinesBetweenPoints:!t,lineWidth:2,mode:stacked,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1),(data:(id:'8',label:'Native%20Hawaiian%2F%20Other%20Pacific%20Islander'),drawLinesBetweenPoints:!t,lineWidth:2,mode:stacked,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:100),name:BottomAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:'Diversity%20Percentage'),type:value))),title:DiversityByEnrollment,type:histogram))`;">
+				<div class="timeline__content">
+					<img class="timeline__img"
+						src="https://github.com/pokearu/SQLNoSQL-Project/blob/master/Visualizations/DiversityByEnrollment.png?raw=true" />
+					<br>
+					<h2 class="timeline__content-title">Unity in Diversity</h2>
+					<p class="timeline__content-desc">Looking to meet people from all over the world? Want a collage of culture? Look no further!
+						<br/>Research shows that the overall academic and social effects of increased racial diversity on campus are likely to be positive, ranging from higher levels of academic achievement to the improvement of near- and long-term intergroup relations.
+					</p>
+				</div>
+			</div>
+			<div class="timeline-item" data-text="Click here to add custom filters" onclick="location.href=`http://149.165.171.6:30854/app/kibana#/visualize/edit/442155b0-8f37-11ea-b424-cb54eda99cd0?embed=true&_g=(refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:''),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(field:'Enrolled%20total'),schema:metric,type:sum),(enabled:!t,id:'2',params:(field:'Control%20of%20institution',missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:_key,otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTooltip:!t,dimensions:(buckets:!((accessor:0,aggType:terms,format:(id:terms,params:(id:string,missingBucketLabel:Missing,otherBucketLabel:Other,parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Control%20of%20institution:%20Descending',params:())),metric:(accessor:1,aggType:sum,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Sum%20of%20Enrolled%20total',params:())),isDonut:!t,labels:(last_level:!t,show:!f,truncate:100,values:!t),legendPosition:right,type:pie),title:'EnrollmentByControl(Pie)',type:pie))`;">
+				<div class="timeline__content">
+					<img class="timeline__img"
+						src=https://github.com/pokearu/SQLNoSQL-Project/blob/master/Visualizations/EnrollmentByControl.png?raw=true" />
+					<br>
+					<h2 class="timeline__content-title">Private/Public?</h2>
+					<p class="timeline__content-desc">The private versus public school debate seems like a tale as old as time. Probably because people have argued for years about their benefits and drawbacks. However, while both have their advantages, one isn’t necessarily better than the other.
+					</p>
+				</div>
+			</div>
+			<div class="timeline-item" data-text="Click here to add custom filters" onclick="location.href=`http://149.165.171.6:30854/app/kibana#/visualize/edit/46e6ea60-869c-11ea-b424-cb54eda99cd0?embed=true&_g=(refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:''),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(field:'Admissions%20total'),schema:metric,type:max),(enabled:!t,id:'2',params:(field:Name,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:10),schema:segment,type:terms),(enabled:!t,id:'3',params:(field:'Applicants%20total'),schema:metric,type:max)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),dimensions:(x:(accessor:0,aggType:terms,format:(id:terms,params:(id:string,missingBucketLabel:Missing,otherBucketLabel:Other,parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Name:%20Descending',params:()),y:!((accessor:1,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Max%20Admissions%20total',params:()),(accessor:2,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Max%20Applicants%20total',params:()))),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:'Max%20Admissions%20total'),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1),(data:(id:'3',label:'Max%20Applicants%20total'),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:'Max%20Admissions%20total'),type:value))),title:AdmissionsVsApplications,type:horizontal_bar))`;">
+				<div class="timeline__content"><img class="timeline__img"
+						src="https://github.com/pokearu/SQLNoSQL-Project/blob/master/Visualizations/AdmissionsVsApplications.png?raw=true" />
+					<h2 class="timeline__content-title">Admissions</h2>
+					<p class="timeline__content-desc">Wanna know which university will give you a higher chance of an admit? <br/>Know what it is that YOU want. A small college gives the benefit of closeness, to other students and to professors. A small college gives undergrads more opportunity for research. A small college has small class sizes suitable for discussion oriented learning. A large university has many, many majors, large class sizes (unless you are in Honors), and usually include sports events and spirit. Larger universities also have more "career oriented" learning, such as engineering or business. Choose the college size that fits you best.</p>
+				</div>
+			</div>
+			<div class="timeline-item" data-text="Click here to add custom filters" onclick="location.href=`http://149.165.171.6:30854/app/kibana#/visualize/edit/3da85340-8f3d-11ea-b424-cb54eda99cd0?embed=true&_g=(refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:''),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(customLabel:'Count%20of%20Colleges'),schema:metric,type:count),(enabled:!t,id:'2',params:(customLabel:State,field:'State%20abbreviation',missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:10),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!t,rotate:0,show:!t,truncate:100),position:bottom,scale:(type:linear),show:!t,style:(),title:(),type:category)),dimensions:(x:(accessor:0,aggType:terms,format:(id:terms,params:(id:string,missingBucketLabel:Missing,otherBucketLabel:Other,parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:State,params:()),y:!((accessor:1,aggType:count,format:(id:number),label:'Count%20of%20Colleges',params:()))),grid:(categoryLines:!f),labels:(show:!f),legendPosition:right,seriesParams:!((data:(id:'1',label:'Count%20of%20Colleges'),drawLinesBetweenPoints:!t,lineWidth:2,mode:stacked,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:100),name:LeftAxis-1,position:left,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:'Count%20of%20Colleges'),type:value))),title:'Count%20of%20Colleges%20by%20state',type:histogram))`;">
+				<div class="timeline__content"><img class="timeline__img"
+						src="https://github.com/pokearu/SQLNoSQL-Project/blob/master/Visualizations/CountOfCollegesByState.png?raw=true" />
+					<h2 class="timeline__content-title">Universities per State</h2>
+					<p class="timeline__content-desc">In terms of the total number of public and private universities in the states, the top four states with the highest number are Texas, California, New York, and Pennsylvania.
+				</div>
+			</div>
+			<div class="timeline-item" data-text="Click here to add custom filters" onclick="location.href=`http://149.165.171.6:30854/app/kibana#/visualize/edit/5c333a30-869d-11ea-b424-cb54eda99cd0?embed=true&_g=(refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:''),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(customLabel:'Out-of-state%20Cost%20',field:'Total%20price%20for%20out-of-state%20students%20living%20on%20campus%202013-14'),schema:metric,type:max),(enabled:!t,id:'2',params:(customLabel:'College%20Name',field:Name,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderAgg:(enabled:!t,id:'2-orderAgg',params:(field:'Enrolled%20total'),schema:orderAgg,type:max),orderBy:custom,otherBucket:!f,otherBucketLabel:Other,size:10),schema:segment,type:terms),(enabled:!t,id:'3',params:(customLabel:'In-state%20Cost',field:'Total%20price%20for%20in-state%20students%20living%20on%20campus%202013-14'),schema:metric,type:max)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),dimensions:(x:(accessor:0,aggType:terms,format:(id:terms,params:(id:string,missingBucketLabel:Missing,otherBucketLabel:Other,parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'College%20Name',params:()),y:!((accessor:1,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Out-of-state%20Cost%20',params:()),(accessor:2,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'In-state%20Cost',params:()))),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:'Out-of-state%20Cost%20'),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1),(data:(id:'3',label:'In-state%20Cost'),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:'Cost%20in%20Dollars'),type:value))),title:Out-of-StateVsIn-State,type:horizontal_bar))`;">
+				<div class="timeline__content"><img class="timeline__img"
+						src="https://github.com/pokearu/SQLNoSQL-Project/blob/master/Visualizations/Out-of-stateVsIn-state.png?raw=true" />
+					<h2 class="timeline__content-title">In State Tuition vs Out of state tuition</h2>
+					<p class="timeline__content-desc">Are you looking to stay local or do you wanna move out of town?<br/> Be mindful! It might cost you more. <br/> Public colleges and universities have historically served their own state residents, but the number of out-of-state freshmen attending them has nearly doubled since 1986, according to Department of Education data.
+					</p>
+				</div>
+			</div>
+		<div class="timeline-item" data-text="Click here to add custom filters" onclick="location.href=`http://149.165.171.6:30854/app/kibana#/visualize/edit/a619ab80-8f2a-11ea-b424-cb54eda99cd0?embed=true&_g=(refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:''),uiState:(vis:(colors:('Average%20Starting%20Median%20Salary':%2370DBED))),vis:(aggs:!((enabled:!t,id:'1',params:(field:'Starting%20Median%20Salary'),schema:metric,type:avg),(enabled:!t,id:'2',params:(customLabel:Region,field:Region,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:_key,otherBucket:!f,otherBucketLabel:Other,size:10),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!t,rotate:0,show:!t,truncate:100),position:bottom,scale:(type:linear),show:!t,style:(),title:(),type:category)),dimensions:(x:(accessor:0,aggType:terms,format:(id:terms,params:(id:string,missingBucketLabel:Missing,otherBucketLabel:Other,parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:Region,params:()),y:!((accessor:1,aggType:avg,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Average%20Mid-Career%20Median%20Salary',params:()))),grid:(categoryLines:!f,valueAxis:''),labels:(),legendPosition:right,orderBucketsBySum:!f,seriesParams:!((data:(id:'1',label:'Average%20Starting%20Median%20Salary'),drawLinesBetweenPoints:!t,interpolate:linear,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:area,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:area,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:0,show:!t,truncate:100),name:LeftAxis-1,position:left,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:'Average%20Starting%20Median%20Salary'),type:value))),title:'SalariesByRegion(Area)',type:area))`;">
+			<div class="timeline__content"><img class="timeline__img"
+					src="https://github.com/pokearu/SQLNoSQL-Project/blob/master/Visualizations/AverageStartingSalaryByRegion.png?raw=true" />
+				<h2 class="timeline__content-title">Average Salary By Region</h2>
+				<p class="timeline__content-desc">It’s no secret that salaries across the United States can fluctuate significantly (up to 23%) based on where the job is located. Average salary variations are fluid due to several factors that affect the salary range within a specific region or city. Such factors can include labor market specifics and average cost of living.
+				</p>
+			</div>
+		</div>
+			<div class="timeline-item" data-text="Click here to add custom filters" onclick="location.href=`http://149.165.171.6:30854/app/kibana#/visualize/edit/332926a0-8697-11ea-b424-cb54eda99cd0?embed=true&_g=(refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:''),uiState:(vis:(colors:('Max%20SAT%20Critical%20Reading%2075th%20percentile%20score':%23F2C96D,'Max%20SAT%20Math%2075th%20percentile%20score':%23E5A8E2,'Max%20SAT%20Writing%2075th%20percentile%20score':%236ED0E0))),vis:(aggs:!((enabled:!t,id:'1',params:(field:'SAT%20Critical%20Reading%2075th%20percentile%20score'),schema:metric,type:max),(enabled:!t,id:'2',params:(field:Name,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'4',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms),(enabled:!t,id:'3',params:(field:'SAT%20Writing%2075th%20percentile%20score'),schema:metric,type:max),(enabled:!t,id:'4',params:(field:'SAT%20Math%2075th%20percentile%20score'),schema:metric,type:max)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),dimensions:(x:(accessor:0,aggType:terms,format:(id:terms,params:(id:string,missingBucketLabel:Missing,otherBucketLabel:Other,parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Name:%20Descending',params:()),y:!((accessor:1,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Max%20SAT%20Critical%20Reading%2075th%20percentile%20score',params:()),(accessor:2,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Max%20SAT%20Writing%2075th%20percentile%20score',params:()),(accessor:3,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Max%20SAT%20Math%2075th%20percentile%20score',params:()))),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:'Max%20SAT%20Critical%20Reading%2075th%20percentile%20score'),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1),(data:(id:'3',label:'Max%20SAT%20Writing%2075th%20percentile%20score'),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1),(data:(id:'4',label:'Max%20SAT%20Math%2075th%20percentile%20score'),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:'Max%20SAT%2075th%20percentile%20score'),type:value))),title:SATScoreByUniversity,type:horizontal_bar))`;">
+				<div class="timeline__content"><img class="timeline__img"
+						src="https://github.com/pokearu/SQLNoSQL-Project/blob/master/Visualizations/SATScoreByUniversity.png?raw=true" />
+					<h2 class="timeline__content-title">SAT score by University</h2>
+					<p class="timeline__content-desc">Wanna find out if your SAT score is good enough to get into your dream college? <br/> Nobody needs a perfect 1600 SAT score to go to Harvard.
+
+						Nor do you need to score 36 on the ACT to go to Stanford.
+						
+						However, you will need a near perfect SAT score to go to MIT. They’re different. Jokes. But not really.</p>
+				</div>
+			</div>
+			<div class="timeline-item" data-text="Click here to add custom filters" onclick="location.href=`http://149.165.171.6:30854/app/kibana#/visualize/edit/26c55de0-8f3c-11ea-b424-cb54eda99cd0?embed=true&_g=(refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:''),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(field:'Starting%20Median%20Salary'),schema:metric,type:max),(enabled:!t,id:'2',params:(field:'School%20Type',missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:10),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!t,show:!t,truncate:100),position:bottom,scale:(type:linear),show:!t,style:(),title:(),type:category)),dimensions:(x:(accessor:0,aggType:terms,format:(id:terms,params:(id:string,missingBucketLabel:Missing,otherBucketLabel:Other,parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'School%20Type:%20Descending',params:()),y:!((accessor:1,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Max%20Starting%20Median%20Salary',params:()))),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:'Max%20Starting%20Median%20Salary'),drawLinesBetweenPoints:!t,interpolate:linear,lineWidth:6,mode:normal,show:!t,showCircles:!t,type:line,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:line,valueAxes:!((id:ValueAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:100),name:LeftAxis-1,position:left,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:'Max%20Starting%20Median%20Salary'),type:value))),title:'Salary%20by%20College%20Type',type:line))`;">
+				<div class="timeline__content"><img class="timeline__img"
+						src="https://github.com/pokearu/SQLNoSQL-Project/blob/master/Visualizations/SalaryByCollegeType.png?raw=true" />
+					<h2 class="timeline__content-title">Salary by College Type</h2>
+					<p class="timeline__content-desc">Engineering seems to be the highest paid followed by Ivy League!
+				</div>
+			</div>
+			<div class="timeline-item" data-text="Click here to add custom filters" onclick="location.href=`http://149.165.171.6:30854/app/kibana#/visualize/edit/a9059010-8693-11ea-b424-cb54eda99cd0?embed=true&_g=(refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:''),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(field:'Starting%20Median%20Salary'),schema:metric,type:max),(enabled:!t,id:'2',params:(customLabel:'',field:'Undergraduate%20Major',missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:10),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),dimensions:(x:(accessor:0,aggType:terms,format:(id:terms,params:(id:string,missingBucketLabel:Missing,otherBucketLabel:Other,parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:Major,params:()),y:!((accessor:1,aggType:max,format:(id:number,params:(parsedUrl:(basePath:'',origin:'http:%2F%2F149.165.171.6:30854',pathname:%2Fapp%2Fkibana))),label:'Max%20Starting%20Median%20Salary',params:()))),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:'Max%20Starting%20Median%20Salary'),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:BottomAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:'Max%20Starting%20Median%20Salary'),type:value))),title:StartingMedianSalaryMajor,type:horizontal_bar))`;">
+				<div class="timeline__content"><img class="timeline__img"
+						src="https://github.com/pokearu/SQLNoSQL-Project/blob/master/Visualizations/StartingMedianSalaryMajor.png?raw=true" />
+					<h2 class="timeline__content-title">Salaries by Major</h2>
+					<p class="timeline__content-desc">Ever wonder which college degree can get you the best salary the minute they hand you the diploma?<br/> Unsurprisingly, graduates in STEM fields — Science, Technology, Engineering and Math — remain in high demand in today’s economy. And that is where the  
+						vast majority of well-paying professions reside. </p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script>
+	(function ($) {
+		$.fn.timeline = function () {
+			var selectors = {
+				id: $(this),
+				item: $(this).find(".timeline-item"),
+				activeClass: "timeline-item--active",
+				img: ".timeline__img"
+			};
+			selectors.item.eq(0).addClass(selectors.activeClass);
+			selectors.id.css(
+				"background-image",
+				"url(" + "https://github.com/pokearu/SQLNoSQL-Project/blob/master/Visualizations/accomplishment-ceremony-education-graduation-267885.jpg?raw=true" + ")"
+			);
+			var itemLength = selectors.item.length;
+			$(window).scroll(function () {
+				var max, min;
+				var pos = $(this).scrollTop();
+				selectors.item.each(function (i) {
+					min = $(this).offset().top;
+					max = $(this).height() + $(this).offset().top;
+					var that = $(this);
+					if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+						selectors.item.removeClass(selectors.activeClass);
+						selectors.id.css(
+							"background-image",
+							"url(" + "https://github.com/pokearu/SQLNoSQL-Project/blob/master/Visualizations/accomplishment-ceremony-education-graduation-267885.jpg?raw=true" + ")"
+						);
+						selectors.item.last().addClass(selectors.activeClass);
+					} else if (pos <= max - 40 && pos >= min) {
+						selectors.id.css(
+							"background-image",
+							"url(" + "https://github.com/pokearu/SQLNoSQL-Project/blob/master/Visualizations/accomplishment-ceremony-education-graduation-267885.jpg?raw=true" + ")"
+						);
+						selectors.item.removeClass(selectors.activeClass);
+						$(this).addClass(selectors.activeClass);
+					}
+				});
+			});
+		};
+	})(jQuery);
+
+	$("#timeline-1").timeline();
+
+</script>
+
+</html>

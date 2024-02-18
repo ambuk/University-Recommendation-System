@@ -1,0 +1,37 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: collegedataanalysis
+spec:
+  selector:
+    app: college-data-server
+  ports:
+    - protocol: "TCP"
+      # Port accessible inside cluster
+      port: 4000
+      # Port to forward to inside the pod
+      targetPort: 3000
+      # Port accessible outside cluster
+      nodePort: 30005
+  type: LoadBalancer
+  
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: college-data-server-deployment
+spec:
+  selector:
+    matchLabels:
+      app: college-data-server
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: college-data-server
+    spec:
+      containers:
+        - name: college-data-server
+          image: pokearu/college-data-server:latest
+          ports:
+          - containerPort: 3000

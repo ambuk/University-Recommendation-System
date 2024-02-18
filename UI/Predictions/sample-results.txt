@@ -1,0 +1,1023 @@
+Result 3:
+
+{
+    "_shards": {
+        "failed": 0,
+        "skipped": 0,
+        "successful": 1,
+        "total": 1
+    },
+    "aggregations": {
+        "2": {
+            "buckets": [
+                {
+                    "3": {
+                        "buckets": [
+                            {
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "5": {
+                                                "buckets": [
+                                                    {
+                                                        "7": {
+                                                            "buckets": [
+                                                                {
+                                                                    "8": {
+                                                                        "buckets": [
+                                                                            {
+                                                                                "9": {
+                                                                                    "buckets": [
+                                                                                        {
+                                                                                            "doc_count": 1,
+                                                                                            "key": 0
+                                                                                        }
+                                                                                    ],
+                                                                                    "doc_count_error_upper_bound": 0,
+                                                                                    "sum_other_doc_count": 0
+                                                                                },
+                                                                                "doc_count": 1,
+                                                                                "key": 0
+                                                                            }
+                                                                        ],
+                                                                        "doc_count_error_upper_bound": 0,
+                                                                        "sum_other_doc_count": 0
+                                                                    },
+                                                                    "doc_count": 1,
+                                                                    "key": 0
+                                                                }
+                                                            ],
+                                                            "doc_count_error_upper_bound": 0,
+                                                            "sum_other_doc_count": 0
+                                                        },
+                                                        "doc_count": 1,
+                                                        "key": 30193
+                                                    }
+                                                ],
+                                                "doc_count_error_upper_bound": 0,
+                                                "sum_other_doc_count": 0
+                                            },
+                                            "doc_count": 1,
+                                            "key": "Pennsylvania"
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Pennsylvania College of Technology"
+                            },
+                            {
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "5": {
+                                                "buckets": [
+                                                    {
+                                                        "7": {
+                                                            "buckets": [
+                                                                {
+                                                                    "8": {
+                                                                        "buckets": [
+                                                                            {
+                                                                                "9": {
+                                                                                    "buckets": [
+                                                                                        {
+                                                                                            "doc_count": 1,
+                                                                                            "key": 485
+                                                                                        }
+                                                                                    ],
+                                                                                    "doc_count_error_upper_bound": 0,
+                                                                                    "sum_other_doc_count": 0
+                                                                                },
+                                                                                "doc_count": 1,
+                                                                                "key": 490
+                                                                            }
+                                                                        ],
+                                                                        "doc_count_error_upper_bound": 0,
+                                                                        "sum_other_doc_count": 0
+                                                                    },
+                                                                    "doc_count": 1,
+                                                                    "key": 470
+                                                                }
+                                                            ],
+                                                            "doc_count_error_upper_bound": 0,
+                                                            "sum_other_doc_count": 0
+                                                        },
+                                                        "doc_count": 1,
+                                                        "key": 30150
+                                                    }
+                                                ],
+                                                "doc_count_error_upper_bound": 0,
+                                                "sum_other_doc_count": 0
+                                            },
+                                            "doc_count": 1,
+                                            "key": "Pennsylvania"
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Pennsylvania State University-Penn State Schuylkill"
+                            }
+                        ],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    },
+                    "doc_count": 2,
+                    "key": "Public"
+                }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0
+        }
+    },
+    "hits": {
+        "hits": [],
+        "max_score": null,
+        "total": {
+            "relation": "eq",
+            "value": 2
+        }
+    },
+    "timed_out": false,
+    "took": 5
+}
+
+Result 2:
+
+{
+    "_shards": {
+        "failed": 0,
+        "skipped": 0,
+        "successful": 1,
+        "total": 1
+    },
+    "aggregations": {
+        "2": {
+            "buckets": [
+                {
+                    "3": {
+                        "buckets": [
+                            {
+                                "3-orderAgg": {
+                                    "value": 75500
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 75500
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "California Institute of Technology (CIT)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 72200
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 72200
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Massachusetts Institute of Technology (MIT)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 71800
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 71800
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Harvey Mudd College"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 62400
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 62400
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Polytechnic University of New York, Brooklyn"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 62200
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 62200
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Cooper Union"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 61800
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 61800
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Carnegie Mellon University (CMU)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 61100
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 61100
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Rensselaer Polytechnic Institute (RPI)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 61000
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 61000
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Worcester Polytechnic Institute (WPI)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 60600
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 60600
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Stevens Institute of Technology"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 58300
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 58300
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Georgia Institute of Technology"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 58100
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 58100
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Colorado School of Mines"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 56000
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 56000
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Illinois Institute of Technology (IIT)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 55800
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 55800
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "South Dakota School of Mines & Technology"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 53500
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 53500
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Virginia Polytechnic Institute and State University (Virginia Tech)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 53000
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 53000
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Wentworth Institute of Technology"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 52700
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 52700
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Embry-Riddle Aeronautical University (ERAU)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 51000
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 51000
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "New Mexico Institute of Mining and Technology (New Mexico Tech)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 48900
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 48900
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Rochester Institute of Technology (RIT)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 46200
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 46200
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Tennessee Technological University"
+                            }
+                        ],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    },
+                    "doc_count": 19,
+                    "key": "Engineering"
+                }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0
+        }
+    },
+    "hits": {
+        "hits": [],
+        "max_score": null,
+        "total": {
+            "relation": "eq",
+            "value": 19
+        }
+    },
+    "timed_out": false,
+    "took": 3
+}
+
+Result 1:
+
+{
+    "_shards": {
+        "failed": 0,
+        "skipped": 0,
+        "successful": 1,
+        "total": 1
+    },
+    "aggregations": {
+        "2": {
+            "buckets": [
+                {
+                    "3": {
+                        "buckets": [
+                            {
+                                "3-orderAgg": {
+                                    "value": 75500
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 75500
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "California Institute of Technology (CIT)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 71800
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 71800
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Harvey Mudd College"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 70400
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 70400
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Stanford University"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 59900
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 59900
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "University of California, Berkeley"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 57200
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 57200
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Cal Poly San Luis Obispo"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 54800
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 54800
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "University of Southern California (USC)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 53500
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 53500
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "San Jose State University (SJSU)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 52600
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 52600
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "University of California at Los Angeles (UCLA)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 52300
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 52300
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "University of California, Davis"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 51900
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 51900
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Occidental College"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 51100
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 51100
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "University of California, San Diego (UCSD)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 50500
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 50500
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "University of California, Santa Barbara (UCSB)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 49200
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 49200
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "California State University, East Bay (CSUEB)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 48600
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 48600
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Pomona College"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 48300
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 48300
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "University of California, Irvine (UCI)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 47800
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 47800
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "California State University, Sacramento (CSUS)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 47400
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 47400
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "California State University (CSU), Chico"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 47300
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 47300
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "San Francisco State University (SFSU)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 46800
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 46800
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "University of California, Riverside (UCR)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 46200
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 46200
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "San Diego State University (SDSU)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 45700
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 45700
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "California State University, Fullerton (CSUF)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 45500
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 45500
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "California State University, Northridge (CSUN)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 45100
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 45100
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "California State University, Long Beach (CSULB)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 44700
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 44700
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "University of California, Santa Cruz (UCSC)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 42700
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 42700
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "California State University, Dominguez Hills (CSUDH)"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 42600
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 42600
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Humboldt State University"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 41500
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 41500
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "Thomas Aquinas College"
+                            },
+                            {
+                                "3-orderAgg": {
+                                    "value": 38000
+                                },
+                                "4": {
+                                    "buckets": [
+                                        {
+                                            "doc_count": 1,
+                                            "key": 38000
+                                        }
+                                    ],
+                                    "doc_count_error_upper_bound": 0,
+                                    "sum_other_doc_count": 0
+                                },
+                                "doc_count": 1,
+                                "key": "California State University (CSU), Stanislaus"
+                            }
+                        ],
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0
+                    },
+                    "doc_count": 28,
+                    "key": "California"
+                }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0
+        }
+    },
+    "hits": {
+        "hits": [],
+        "max_score": null,
+        "total": {
+            "relation": "eq",
+            "value": 28
+        }
+    },
+    "timed_out": false,
+    "took": 9
+}
